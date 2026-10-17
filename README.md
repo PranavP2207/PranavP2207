@@ -29,8 +29,8 @@ My projects span web development, machine learning, and DevOps. Here are a few a
       <sub><a href="https://github.com/PranavP2207/devops-cicd-app">Code</a> · <a href="https://github.com/PranavP2207/devops-cicd-app#readme">README</a></sub>
     </td>
     <td width="50%">
-      <p align="left">Also on my GitHub</p>
-      <p align="left">More group projects and forked repositories.<br><a href="https://github.com/PranavP2207?tab=repositories">Explore my repositories →</a></p>
+      <a href="https://github.com/PranavP2207/apttrac"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/a6cccec2c2dbbd4699b50d2454628eb495e8d21d/assets/card-apttrac.svg" width="100%" alt="04 / AptTraC: applicant tracking for hiring teams, with jobs, candidate profiles, and application history, using Next.js, TypeScript, Prisma, and SQLite." /></a><br>
+      <sub><a href="https://github.com/PranavP2207/apttrac">Code</a> · <a href="https://github.com/PranavP2207/apttrac/blob/main/docs/README.md">Documentation</a></sub>
     </td>
   </tr>
 </table>
