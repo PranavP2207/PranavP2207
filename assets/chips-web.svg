@@ -2,33 +2,50 @@
   <title id="title">WEB technologies</title>
   <desc id="desc">TypeScript, React, Next.js, FastAPI, Flask, Tailwind CSS. These technologies appear in the reviewed projects.</desc>
   <defs>
-    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
-    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
-      <use href="#ridge"/>
-      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
-      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
-      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
-      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
-      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
-      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
+    <g id="contours" fill="none" stroke="url(#contour-gradient)" stroke-width="1.4" stroke-opacity=".6">
+      <use href="#ridge" />
+      <use href="#ridge" transform="translate(10 -2) scale(.86)" />
+      <use href="#ridge" transform="translate(20 -2) scale(.72)" />
+      <use href="#ridge" transform="translate(27 -1) scale(.58)" />
+      <use href="#ridge" transform="translate(33 0) scale(.44)" />
+      <use href="#ridge" transform="translate(38 1) scale(.30)" />
+      <use href="#ridge" transform="translate(42 2) scale(.16)" />
     </g>
-    <clipPath id="frame"><rect width="800" height="88" rx="14"/></clipPath>
+    <clipPath id="frame">
+      <rect width="800" height="88" rx="14" />
+    </clipPath>
+    <linearGradient id="surface-gradient" x1="0" y1="0" x2="800" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c0b19" />
+      <stop offset="0.12" stop-color="#2c0b19" />
+      <stop offset="1" stop-color="#66243d" />
+    </linearGradient>
+    <linearGradient id="contour-gradient" x1="-280" y1="0" x2="300" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="0.55" stop-color="#c8a1ad" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="chip-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="1" stop-color="#2c0b19" />
+    </linearGradient>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="800" height="88" fill="#0f2a24"/>
-    <use href="#contours" transform="translate(790 88) scale(.6)" opacity=".3"/>
-    <text x="24" y="49" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2" fill="#a8c3a0">WEB</text>
-    <rect x="144" y="28" width="112" height="32" rx="16" fill="#1f4d3f"/>
+    <rect width="800" height="88" fill="#2c0b19" />
+    <rect width="800" height="88" fill="url(#surface-gradient)" />
+    <use href="#contours" transform="translate(790 88) scale(.6)" opacity=".3" />
+    <text x="24" y="49" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2" fill="#c8a1ad">WEB</text>
+    <rect x="144" y="28" width="112" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="200" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">TypeScript</text>
-    <rect x="264" y="28" width="72" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="264" y="28" width="72" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="300" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">React</text>
-    <rect x="344" y="28" width="88" height="32" rx="16" fill="#1f4d3f" stroke="#d9f36b"/>
+    <rect x="344" y="28" width="88" height="32" rx="16" fill="url(#chip-gradient)" stroke="#f0b6c8" />
     <text x="388" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Next.js</text>
-    <rect x="440" y="28" width="88" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="440" y="28" width="88" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="484" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">FastAPI</text>
-    <rect x="536" y="28" width="72" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="536" y="28" width="72" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="572" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Flask</text>
-    <rect x="616" y="28" width="128" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="616" y="28" width="128" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="680" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Tailwind CSS</text>
   </g>
 </svg>

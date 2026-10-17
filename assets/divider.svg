@@ -1,23 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-labelledby="title desc">
   <title id="title">Topographic section divider</title>
-  <desc id="desc">A moss contour wave and one lime marker on a pine strip.</desc>
+  <desc id="desc">A burgundy contour wave and one rose marker on a maroon gradient strip.</desc>
   <defs>
-    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
-    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
-      <use href="#ridge"/>
-      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
-      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
-      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
-      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
-      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
-      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
+    <g id="contours" fill="none" stroke="url(#contour-gradient)" stroke-width="1.4" stroke-opacity=".6">
+      <use href="#ridge" />
+      <use href="#ridge" transform="translate(10 -2) scale(.86)" />
+      <use href="#ridge" transform="translate(20 -2) scale(.72)" />
+      <use href="#ridge" transform="translate(27 -1) scale(.58)" />
+      <use href="#ridge" transform="translate(33 0) scale(.44)" />
+      <use href="#ridge" transform="translate(38 1) scale(.30)" />
+      <use href="#ridge" transform="translate(42 2) scale(.16)" />
     </g>
-    <clipPath id="frame"><rect width="1200" height="24" rx="12"/></clipPath>
+    <clipPath id="frame">
+      <rect width="1200" height="24" rx="12" />
+    </clipPath>
+    <linearGradient id="surface-gradient" x1="0" y1="0" x2="1200" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c0b19" />
+      <stop offset="0.12" stop-color="#2c0b19" />
+      <stop offset="1" stop-color="#66243d" />
+    </linearGradient>
+    <linearGradient id="contour-gradient" x1="-280" y1="0" x2="300" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="0.55" stop-color="#c8a1ad" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="rule-gradient" x1="24" y1="0" x2="1176" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c8a1ad" stop-opacity="0.1" />
+      <stop offset="0.5" stop-color="#c8a1ad" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.1" />
+    </linearGradient>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="24" fill="#0f2a24"/>
-    <use href="#contours" transform="translate(1030 -180) scale(1.1)" opacity=".3"/>
-    <path d="M24 12C120-4 168 28 264 12S408-4 504 12S648 28 744 12S888-4 984 12S1080 28 1176 12" fill="none" stroke="#1f4d3f" stroke-width="1.4"/>
-    <circle cx="600" cy="18" r="3" fill="#d9f36b"/>
+    <rect width="1200" height="24" fill="#2c0b19" />
+    <rect width="1200" height="24" fill="url(#surface-gradient)" />
+    <use href="#contours" transform="translate(1030 -180) scale(1.1)" opacity=".3" />
+    <path d="M24 12C120-4 168 28 264 12S408-4 504 12S648 28 744 12S888-4 984 12S1080 28 1176 12" fill="none" stroke="url(#rule-gradient)" stroke-width="1.4" />
+    <circle cx="600" cy="18" r="3" fill="#f0b6c8" />
   </g>
 </svg>

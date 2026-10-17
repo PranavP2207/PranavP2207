@@ -2,32 +2,43 @@
   <title id="title">02 / Cyber Breach Prediction</title>
   <desc id="desc">Random Forest vs. Logistic Regression. Academic incident classification. Technologies: Python, Streamlit, scikit-learn.</desc>
   <defs>
-    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
-    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
-      <use href="#ridge"/>
-      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
-      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
-      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
-      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
-      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
-      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
+    <g id="contours" fill="none" stroke="#66243d" stroke-width="1.4">
+      <use href="#ridge" />
+      <use href="#ridge" transform="translate(10 -2) scale(.86)" />
+      <use href="#ridge" transform="translate(20 -2) scale(.72)" />
+      <use href="#ridge" transform="translate(27 -1) scale(.58)" />
+      <use href="#ridge" transform="translate(33 0) scale(.44)" />
+      <use href="#ridge" transform="translate(38 1) scale(.30)" />
+      <use href="#ridge" transform="translate(42 2) scale(.16)" />
     </g>
-    <clipPath id="frame"><rect width="580" height="240" rx="14"/></clipPath>
+    <clipPath id="frame">
+      <rect width="580" height="240" rx="14" />
+    </clipPath>
+    <linearGradient id="surface-gradient" x1="0" y1="0" x2="580" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3efe4" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.24" />
+    </linearGradient>
+    <linearGradient id="chip-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="1" stop-color="#2c0b19" />
+    </linearGradient>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="580" height="240" fill="#f3efe4"/>
-    <use href="#contours" transform="translate(540 236) scale(.58)" opacity=".16"/>
-    <rect x="24" y="24" width="72" height="64" rx="14" fill="#0f2a24"/>
-    <text x="60" y="72" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#d9f36b">02</text>
-    <text x="112" y="56" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="30" fill="#0f2a24">Cyber Breach Prediction</text>
-    <text x="112" y="88" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#1f4d3f">Random Forest vs. Logistic Regression.</text>
-    <text x="112" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#1f4d3f">Academic incident classification.</text>
-    <rect x="24" y="144" width="80" height="32" rx="16" fill="#1f4d3f"/>
+    <rect width="580" height="240" fill="#f3efe4" />
+    <rect width="580" height="240" fill="url(#surface-gradient)" />
+    <use href="#contours" transform="translate(540 236) scale(.58)" opacity=".16" />
+    <rect x="24" y="24" width="72" height="64" rx="14" fill="#2c0b19" />
+    <text x="60" y="72" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#f0b6c8">02</text>
+    <text x="112" y="56" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="30" fill="#2c0b19">Cyber Breach Prediction</text>
+    <text x="112" y="88" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#66243d">Random Forest vs. Logistic Regression.</text>
+    <text x="112" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#66243d">Academic incident classification.</text>
+    <rect x="24" y="144" width="80" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="64" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Python</text>
-    <rect x="112" y="144" width="104" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="112" y="144" width="104" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="164" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Streamlit</text>
-    <rect x="224" y="144" width="128" height="32" rx="16" fill="#1f4d3f"/>
+    <rect x="224" y="144" width="128" height="32" rx="16" fill="url(#chip-gradient)" />
     <text x="288" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">scikit-learn</text>
-    <text x="24" y="212" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#1f4d3f">open project →</text>
+    <text x="24" y="212" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#66243d">open project →</text>
   </g>
 </svg>

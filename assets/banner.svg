@@ -1,25 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Pranav Paradkar — web, machine learning, devops</title>
-  <desc id="desc">A pine terminal landscape with seven nested moss contours. The prompt reads ~/pranav $ whoami above Pranav Paradkar. A lime cursor and a small summit marker provide two accents.</desc>
+  <desc id="desc">A maroon terminal landscape with seven nested burgundy contours. The prompt reads ~/pranav $ whoami above Pranav Paradkar. A rose cursor and a small summit marker provide two accents.</desc>
   <defs>
-    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
-    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
-      <use href="#ridge"/>
-      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
-      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
-      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
-      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
-      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
-      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
+    <g id="contours" fill="none" stroke="url(#contour-gradient)" stroke-width="1.4" stroke-opacity=".6">
+      <use href="#ridge" />
+      <use href="#ridge" transform="translate(10 -2) scale(.86)" />
+      <use href="#ridge" transform="translate(20 -2) scale(.72)" />
+      <use href="#ridge" transform="translate(27 -1) scale(.58)" />
+      <use href="#ridge" transform="translate(33 0) scale(.44)" />
+      <use href="#ridge" transform="translate(38 1) scale(.30)" />
+      <use href="#ridge" transform="translate(42 2) scale(.16)" />
     </g>
     <linearGradient id="fade" x1="480" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f3efe4" stop-opacity="0"/>
-      <stop offset="1" stop-color="#f3efe4"/>
+      <stop stop-color="#f3efe4" stop-opacity="0" />
+      <stop offset="1" stop-color="#f3efe4" />
     </linearGradient>
     <mask id="map-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="380" style="mask-type:alpha">
-      <rect width="1200" height="380" fill="url(#fade)"/>
+      <rect width="1200" height="380" fill="url(#fade)" />
     </mask>
-    <clipPath id="frame"><rect width="1200" height="380" rx="14"/></clipPath>
+    <clipPath id="frame">
+      <rect width="1200" height="380" rx="14" />
+    </clipPath>
     <style>
       @media (prefers-reduced-motion: no-preference) {
         .scene{animation:terminal-cycle 40s steps(1,end) infinite}
@@ -109,22 +111,40 @@
         }
       }
     </style>
+    <linearGradient id="surface-gradient" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c0b19" />
+      <stop offset="0.34" stop-color="#2c0b19" />
+      <stop offset="1" stop-color="#66243d" />
+    </linearGradient>
+    <radialGradient id="terrain-halo" cx="1020" cy="160" r="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#66243d" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="contour-gradient" x1="-280" y1="0" x2="300" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="0.55" stop-color="#c8a1ad" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.9" />
+    </linearGradient>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="380" fill="#0f2a24"/>
+    <rect width="1200" height="380" fill="#2c0b19" />
+    <rect width="1200" height="380" fill="url(#surface-gradient)" />
+    <rect width="1200" height="380" fill="url(#terrain-halo)" />
     <g class="scene">
       <g mask="url(#map-mask)">
-        <g class="map"><use href="#contours" transform="translate(940 208) scale(1.56)"/></g>
+        <g class="map">
+          <use href="#contours" transform="translate(940 208) scale(1.56)" />
+        </g>
       </g>
-      <text x="64" y="104" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20" fill="#a8c3a0">~/pranav $ whoami</text>
-      <rect class="cursor" x="272" y="86" width="12" height="24" fill="#d9f36b"/>
+      <text x="64" y="104" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20" fill="#c8a1ad">~/pranav $ whoami</text>
+      <rect class="cursor" x="272" y="86" width="12" height="24" fill="#f0b6c8" />
       <text x="60" y="192" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="76" letter-spacing="-2" fill="#f3efe4">Pranav Paradkar</text>
-      <text x="64" y="240" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20" fill="#a8c3a0">web · machine learning · devops</text>
+      <text x="64" y="240" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20" fill="#c8a1ad">web · machine learning · devops</text>
       <g aria-hidden="true">
-        <path d="M988 214H1020M1004 198V230" stroke="#a8c3a0" stroke-width="1"/>
-        <path d="M1004 205L1010 217H998Z" fill="#d9f36b"/>
+        <path d="M988 214H1020M1004 198V230" stroke="#c8a1ad" stroke-width="1" />
+        <path d="M1004 205L1010 217H998Z" fill="#f0b6c8" />
       </g>
-      <text x="920" y="264" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" fill="#a8c3a0">build / ship / learn</text>
+      <text x="920" y="264" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" fill="#c8a1ad">build / ship / learn</text>
     </g>
   </g>
 </svg>
