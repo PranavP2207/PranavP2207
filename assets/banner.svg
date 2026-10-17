@@ -1,37 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Pranav Paradkar</title>
-  <desc id="desc">Building across web, machine learning, and DevOps. A midnight blue banner with mint accents and a geometric monogram.</desc>
+  <title id="title">Pranav Paradkar — Developer Profile</title>
+  <desc id="desc">Pranav Paradkar. Web development, machine learning, and DevOps. A violet and midnight blue banner with luminous typography, a fine grid, and subtle animated circuit details.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1422"/>
-      <stop offset="1" stop-color="#142a36"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090d19"/>
+      <stop offset="0.48" stop-color="#171027"/>
+      <stop offset="1" stop-color="#24113d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a2f5d8"/>
-      <stop offset="1" stop-color="#53c4c5"/>
+    <radialGradient id="aura">
+      <stop stop-color="#8b5cf6" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="48" y1="30" x2="1152" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="0.52" stop-color="#7b4bab" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#bba0f7"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#a2f5d8" opacity="0.1"/>
+    <linearGradient id="name" x1="150" y1="0" x2="1050" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f4ff"/>
+      <stop offset="0.42" stop-color="#e1d4ff"/>
+      <stop offset="0.76" stop-color="#bd96fa"/>
+      <stop offset="1" stop-color="#f6f2ff"/>
+    </linearGradient>
+    <linearGradient id="shimmer">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#d6c4fb" stroke-opacity="0.045"/>
     </pattern>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="340" rx="24"/>
+    </clipPath>
+    <clipPath id="nameClip">
+      <text x="600" y="166" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="3">PRANAV PARADKAR</text>
+    </clipPath>
+    <style>
+      @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+    </style>
   </defs>
-  <rect width="1200" height="340" rx="20" fill="url(#background)"/>
-  <rect x="770" y="0" width="430" height="340" rx="20" fill="url(#grid)"/>
-  <path d="M64 65h38" stroke="#a2f5d8" stroke-width="4" stroke-linecap="round"/>
-  <text x="116" y="71" fill="#a2f5d8" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">PRANAVP2207</text>
-  <text x="60" y="153" fill="#f2f7fb" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-2">Pranav Paradkar</text>
-  <text x="64" y="199" fill="#b7c9d7" font-family="Segoe UI,Arial,sans-serif" font-size="22">From technical ideas to useful applications.</text>
-  <text x="64" y="278" fill="#a2f5d8" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="2">WEB DEVELOPMENT</text>
-  <circle cx="258" cy="273" r="2" fill="#6f8797"/>
-  <text x="277" y="278" fill="#a2f5d8" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="2">MACHINE LEARNING</text>
-  <circle cx="479" cy="273" r="2" fill="#6f8797"/>
-  <text x="498" y="278" fill="#a2f5d8" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="2">DEVOPS</text>
-  <g transform="translate(960 170)">
-    <circle r="119" fill="none" stroke="#a2f5d8" stroke-opacity="0.14"/>
-    <circle r="94" fill="none" stroke="#a2f5d8" stroke-opacity="0.08"/>
-    <rect x="-74" y="-74" width="148" height="148" rx="34" fill="#102b36" stroke="#a2f5d8" stroke-opacity="0.35" transform="rotate(-9)"/>
-    <path d="M-29 43V-43H7C48-43 48 11 7 11H-7" fill="none" stroke="url(#accent)" stroke-width="13" stroke-linejoin="round"/>
-    <circle cx="-113" cy="-38" r="5" fill="#a2f5d8"/>
-    <circle cx="98" cy="67" r="4" fill="#53c4c5"/>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#background)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <ellipse cx="600" cy="155" rx="510" ry="185" fill="url(#aura)"/>
+
+    <rect x="40" y="28" width="1120" height="284" rx="18" fill="none" stroke="url(#border)" stroke-width="1.2"/>
+    <path d="M40 77V28H98" fill="none" stroke="#a78bfa" stroke-width="4"/>
+    <path d="M1102 312H1160V263" fill="none" stroke="#a4eadb" stroke-width="4"/>
+
+    <g fill="none" stroke-width="1.5">
+      <path d="M0 232H100L136 204H206" stroke="#a78bfa" stroke-opacity="0.2"/>
+      <path d="M1200 105H1095L1062 80H1000" stroke="#a4eadb" stroke-opacity="0.18"/>
+      <g class="motion">
+        <path d="M0 232H100L136 204H206" stroke="#a78bfa" stroke-opacity="0.7" stroke-dasharray="7 16">
+          <animate attributeName="stroke-dashoffset" from="0" to="-138" dur="7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1200 105H1095L1062 80H1000" stroke="#a4eadb" stroke-opacity="0.55" stroke-dasharray="7 16">
+          <animate attributeName="stroke-dashoffset" from="0" to="138" dur="7s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <path d="M403 72H444M756 72H797" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="600" y="77" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="13" font-weight="600" letter-spacing="4" fill="#bda9e5">DEVELOPER PROFILE</text>
+
+    <text x="600" y="166" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="3" fill="#9d6deb" opacity="0.4" filter="url(#glow)" aria-hidden="true">PRANAV PARADKAR</text>
+    <text x="600" y="166" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="3" fill="url(#name)">PRANAV PARADKAR</text>
+    <g class="motion" clip-path="url(#nameClip)" aria-hidden="true">
+      <rect x="-260" y="90" width="180" height="100" fill="url(#shimmer)" transform="skewX(-16)">
+        <animate attributeName="x" values="-260;1450;1450" keyTimes="0;0.55;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="600" y="211" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="2.6" fill="#d8caf2">WEB DEVELOPMENT · MACHINE LEARNING · DEVOPS</text>
+    <text x="600" y="247" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#aaa2bd">From technical ideas to useful applications.</text>
+
+    <path d="M72 276H1128" stroke="#bda9e5" stroke-opacity="0.14"/>
+    <path d="M486 276H714" stroke="#b995ff" stroke-opacity="0.28"/>
+    <g class="motion">
+      <rect x="486" y="274.5" width="54" height="3" rx="1.5" fill="#a4eadb" opacity="0.85">
+        <animate attributeName="x" values="486;660;486" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="72" y="299" font-family="Consolas,Menlo,monospace" font-size="11" letter-spacing="2" fill="#a893cb">GITHUB / PRANAVP2207</text>
+    <text x="1128" y="299" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="11" letter-spacing="2" fill="#a893cb">BUILD · LEARN · SHIP</text>
   </g>
-  <path d="M64 319h1072" stroke="#a2f5d8" stroke-opacity="0.09"/>
 </svg>
