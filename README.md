@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Pranav Paradkar — building across web, machine learning, and DevOps" width="100%" />
+  <img src="assets/banner.svg?v=95581ec" alt="Pranav Paradkar — building across web, machine learning, and DevOps" width="100%" />
 </p>
 
 <p align="center">
