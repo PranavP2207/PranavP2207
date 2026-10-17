@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/banner.svg" width="100%" alt="Pranav Paradkar — web, machine learning, and DevOps, in a topographic terminal landscape." />
+  <img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/banner.svg" width="100%" alt="Pranav Paradkar — web, machine learning, and DevOps, in a topographic terminal landscape." />
 </p>
 <p align="center">
   <a href="https://github.com/PranavP2207?tab=repositories">Projects</a> · <a href="https://snap-2-store.vercel.app/">Try Snap-2-Store</a> · <a href="https://twitter.com/PranavParadkar">Connect on X</a>
 </p>
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
 
 ## Hi, I'm Pranav
 
@@ -15,17 +15,17 @@ My projects span web development, machine learning, and DevOps. Here are a few a
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/PranavP2207/snap-2-store"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/card-snap-2-store.svg" width="100%" alt="01 / Snap-2-Store: a Team NeuralShift photo-to-listing studio in demo mode, using Next.js, TypeScript, FastAPI, and Python." /></a><br>
+      <a href="https://github.com/PranavP2207/snap-2-store"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/card-snap-2-store.svg" width="100%" alt="01 / Snap-2-Store: a Team NeuralShift photo-to-listing studio in demo mode, using Next.js, TypeScript, FastAPI, and Python." /></a><br>
       <sub>Team NeuralShift · <a href="https://snap-2-store.vercel.app/">Demo mode</a> · <a href="https://github.com/PranavP2207/snap-2-store">Code</a></sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/card-cyber-breach-prediction.svg" width="100%" alt="02 / Cyber Breach Prediction: academic incident classification comparing Random Forest and Logistic Regression, using Python, Streamlit, and scikit-learn." /></a><br>
+      <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/card-cyber-breach-prediction.svg" width="100%" alt="02 / Cyber Breach Prediction: academic incident classification comparing Random Forest and Logistic Regression, using Python, Streamlit, and scikit-learn." /></a><br>
       <sub>Academic project · <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction">Code</a> · <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction/blob/main/docs/project-guide.html">Project guide</a></sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/PranavP2207/devops-cicd-app"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/card-devops-cicd-app.svg" width="100%" alt="03 / DevOps CI/CD App: a Flask app with Docker packaging and a Jenkins pipeline, using Python, Flask, Docker, and Jenkins." /></a><br>
+      <a href="https://github.com/PranavP2207/devops-cicd-app"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/card-devops-cicd-app.svg" width="100%" alt="03 / DevOps CI/CD App: a Flask app with Docker packaging and a Jenkins pipeline, using Python, Flask, Docker, and Jenkins." /></a><br>
       <sub><a href="https://github.com/PranavP2207/devops-cicd-app">Code</a> · <a href="https://github.com/PranavP2207/devops-cicd-app#readme">README</a></sub>
     </td>
     <td width="50%">
@@ -35,13 +35,13 @@ My projects span web development, machine learning, and DevOps. Here are a few a
   </tr>
 </table>
 
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
 
 ## Technologies in my projects
 
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/chips-web.svg" width="100%" alt="Web: TypeScript, React, Next.js, FastAPI, Flask, and Tailwind CSS." /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/chips-ml.svg" width="100%" alt="Machine learning: Python, scikit-learn, Streamlit, and Jupyter." /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/chips-delivery.svg" width="100%" alt="Delivery: Git, Docker, Jenkins, Vercel, and Redis." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/chips-web.svg" width="100%" alt="Web: TypeScript, React, Next.js, FastAPI, Flask, and Tailwind CSS." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/chips-ml.svg" width="100%" alt="Machine learning: Python, scikit-learn, Streamlit, and Jupyter." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/chips-delivery.svg" width="100%" alt="Delivery: Git, Docker, Jenkins, Vercel, and Redis." /></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/848a720ead32c6a576c83c9897212ad185bbf427/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/divider.svg" width="100%" alt="Topographic section divider." /></p>
 <p align="center"><sub><a href="https://github.com/PranavP2207?tab=repositories">Repositories</a> · <a href="https://twitter.com/PranavParadkar">Connect on X</a></sub></p>
