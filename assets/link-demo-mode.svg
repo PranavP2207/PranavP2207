@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="32" viewBox="0 0 116 32" role="img" aria-labelledby="title desc">
+  <title id="title">Demo mode</title>
+  <desc id="desc">Demo mode link in the burgundy profile palette.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="116" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="1" stop-color="#2c0b19" />
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="115" height="31" rx="15.5" fill="#2c0b19" />
+  <rect x="0.5" y="0.5" width="115" height="31" rx="15.5" fill="url(#surface)" stroke="#c8a1ad" stroke-opacity=".5" />
+  <text x="14" y="20.5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12.5" fill="#f3efe4">Demo mode</text>
+  <text x="102" y="20.5" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12.5" fill="#f0b6c8">↗</text>
+</svg>
