@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-labelledby="title desc">
+  <title id="title">04 / AptTraC</title>
+  <desc id="desc">Applicant tracking for hiring teams. Jobs, candidates, and applications. Technologies: Next.js, TypeScript, Prisma, SQLite.</desc>
+  <defs>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
+    <g id="contours" fill="none" stroke="url(#contour-gradient)" stroke-width="1.4" stroke-opacity=".6">
+      <use href="#ridge" />
+      <use href="#ridge" transform="translate(10 -2) scale(.86)" />
+      <use href="#ridge" transform="translate(20 -2) scale(.72)" />
+      <use href="#ridge" transform="translate(27 -1) scale(.58)" />
+      <use href="#ridge" transform="translate(33 0) scale(.44)" />
+      <use href="#ridge" transform="translate(38 1) scale(.30)" />
+      <use href="#ridge" transform="translate(42 2) scale(.16)" />
+    </g>
+    <clipPath id="frame">
+      <rect width="580" height="240" rx="14" />
+    </clipPath>
+    <linearGradient id="surface-gradient" x1="0" y1="0" x2="580" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c0b19" />
+      <stop offset="0.12" stop-color="#2c0b19" />
+      <stop offset="1" stop-color="#66243d" />
+    </linearGradient>
+    <linearGradient id="contour-gradient" x1="-280" y1="0" x2="300" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="0.55" stop-color="#c8a1ad" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#c8a1ad" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="chip-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66243d" />
+      <stop offset="1" stop-color="#2c0b19" />
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="580" height="240" fill="#2c0b19" />
+    <rect width="580" height="240" fill="url(#surface-gradient)" />
+    <use href="#contours" transform="translate(540 236) scale(.58)" opacity=".4" />
+    <text x="60" y="70" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#f0b6c8">04</text>
+    <text x="112" y="56" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="32" fill="#f3efe4">AptTraC</text>
+    <text x="112" y="88" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#c8a1ad">Applicant tracking for hiring teams.</text>
+    <text x="112" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#c8a1ad">Jobs, candidates, and applications.</text>
+    <rect x="24" y="144" width="88" height="32" rx="16" fill="url(#chip-gradient)" />
+    <text x="68" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Next.js</text>
+    <rect x="120" y="144" width="112" height="32" rx="16" fill="url(#chip-gradient)" />
+    <text x="176" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">TypeScript</text>
+    <rect x="240" y="144" width="80" height="32" rx="16" fill="url(#chip-gradient)" />
+    <text x="280" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Prisma</text>
+    <rect x="328" y="144" width="80" height="32" rx="16" fill="url(#chip-gradient)" />
+    <text x="368" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">SQLite</text>
+    <text x="24" y="212" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#c8a1ad">open project →</text>
+  </g>
+</svg>
