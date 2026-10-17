@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=95581ec" alt="Pranav Paradkar — building across web, machine learning, and DevOps" width="100%" />
+  <img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/95581ec0cb70aa0240937d3450d4cab39075d636/assets/banner.svg" alt="Pranav Paradkar — building across web, machine learning, and DevOps" width="100%" />
 </p>
 
 <p align="center">
