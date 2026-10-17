@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewBox="0 0 800 88" role="img" aria-labelledby="title desc">
   <title id="title">ML technologies</title>
   <desc id="desc">Python, scikit-learn, Streamlit, Jupyter. These technologies appear in the reviewed projects.</desc>
   <defs>
@@ -12,19 +12,19 @@
       <use href="#ridge" transform="translate(38 1) scale(.30)"/>
       <use href="#ridge" transform="translate(42 2) scale(.16)"/>
     </g>
-    <clipPath id="frame"><rect width="1200" height="104" rx="14"/></clipPath>
+    <clipPath id="frame"><rect width="800" height="88" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="104" fill="#0f2a24"/>
-    <use href="#contours" transform="translate(1170 104) scale(.8)" opacity=".3"/>
-    <text x="32" y="58" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" letter-spacing="2" fill="#a8c3a0">ML</text>
-    <rect x="184" y="36" width="96" height="32" rx="16" fill="#1f4d3f" stroke="#d9f36b"/>
-    <text x="232" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Python</text>
-    <rect x="288" y="36" width="144" height="32" rx="16" fill="#1f4d3f"/>
-    <text x="360" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">scikit-learn</text>
-    <rect x="440" y="36" width="120" height="32" rx="16" fill="#1f4d3f"/>
-    <text x="500" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Streamlit</text>
-    <rect x="568" y="36" width="104" height="32" rx="16" fill="#1f4d3f"/>
-    <text x="620" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Jupyter</text>
+    <rect width="800" height="88" fill="#0f2a24"/>
+    <use href="#contours" transform="translate(790 88) scale(.6)" opacity=".3"/>
+    <text x="24" y="49" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2" fill="#a8c3a0">ML</text>
+    <rect x="144" y="28" width="88" height="32" rx="16" fill="#1f4d3f" stroke="#d9f36b"/>
+    <text x="188" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Python</text>
+    <rect x="240" y="28" width="128" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="304" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">scikit-learn</text>
+    <rect x="376" y="28" width="112" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="432" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Streamlit</text>
+    <rect x="496" y="28" width="96" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="544" y="49" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#f3efe4">Jupyter</text>
   </g>
 </svg>
