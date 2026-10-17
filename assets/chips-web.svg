@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="title desc">
+  <title id="title">WEB technologies</title>
+  <desc id="desc">TypeScript, React, Next.js, FastAPI, Flask, Tailwind CSS. These technologies appear in the reviewed projects.</desc>
+  <defs>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
+    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
+      <use href="#ridge"/>
+      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
+      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
+      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
+      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
+      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
+      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    </g>
+    <clipPath id="frame"><rect width="1200" height="104" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="104" fill="#0f2a24"/>
+    <use href="#contours" transform="translate(1170 104) scale(.8)" opacity=".3"/>
+    <text x="32" y="58" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" letter-spacing="2" fill="#a8c3a0">WEB</text>
+    <rect x="184" y="36" width="128" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="248" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">TypeScript</text>
+    <rect x="320" y="36" width="88" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="364" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">React</text>
+    <rect x="416" y="36" width="104" height="32" rx="16" fill="#1f4d3f" stroke="#d9f36b"/>
+    <text x="468" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Next.js</text>
+    <rect x="528" y="36" width="104" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="580" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">FastAPI</text>
+    <rect x="640" y="36" width="88" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="684" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Flask</text>
+    <rect x="736" y="36" width="144" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="808" y="57" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Tailwind CSS</text>
+  </g>
+</svg>

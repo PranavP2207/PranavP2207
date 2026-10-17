@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-labelledby="title desc">
+  <title id="title">01 / Snap-2-Store</title>
+  <desc id="desc">Photo-to-listing studio for sellers. Team NeuralShift · demo mode. Technologies: Next.js, TypeScript, FastAPI, Python.</desc>
+  <defs>
+    <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z"/>
+    <g id="contours" fill="none" stroke="#1f4d3f" stroke-width="1.4">
+      <use href="#ridge"/>
+      <use href="#ridge" transform="translate(10 -2) scale(.86)"/>
+      <use href="#ridge" transform="translate(20 -2) scale(.72)"/>
+      <use href="#ridge" transform="translate(27 -1) scale(.58)"/>
+      <use href="#ridge" transform="translate(33 0) scale(.44)"/>
+      <use href="#ridge" transform="translate(38 1) scale(.30)"/>
+      <use href="#ridge" transform="translate(42 2) scale(.16)"/>
+    </g>
+    <clipPath id="frame"><rect width="580" height="240" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="580" height="240" fill="#0f2a24"/>
+    <use href="#contours" transform="translate(540 236) scale(.58)" opacity=".4"/>
+    <text x="60" y="70" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#d9f36b">01</text>
+    <text x="112" y="56" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="32" fill="#f3efe4">Snap-2-Store</text>
+    <text x="112" y="88" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#a8c3a0">Photo-to-listing studio for sellers.</text>
+    <text x="112" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#a8c3a0">Team NeuralShift · demo mode.</text>
+    <rect x="24" y="144" width="88" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="68" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Next.js</text>
+    <rect x="120" y="144" width="112" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="176" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">TypeScript</text>
+    <rect x="240" y="144" width="88" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="284" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">FastAPI</text>
+    <rect x="336" y="144" width="80" height="32" rx="16" fill="#1f4d3f"/>
+    <text x="376" y="165" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#f3efe4">Python</text>
+    <text x="24" y="212" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#a8c3a0">open project →</text>
+  </g>
+</svg>
