@@ -19,7 +19,7 @@ My projects span web development, machine learning, and DevOps. Here are a few a
       <sub>Team NeuralShift · <a href="https://snap-2-store.vercel.app/">Demo mode</a> · <a href="https://github.com/PranavP2207/snap-2-store">Code</a></sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/317c5f155f481d24d9c856f80ca558cc137a97ba/assets/card-cyber-breach-prediction.svg" width="100%" alt="02 / Cyber Breach Prediction: academic incident classification comparing Random Forest and Logistic Regression, using Python, Streamlit, and scikit-learn." /></a><br>
+      <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction"><img src="https://raw.githubusercontent.com/PranavP2207/PranavP2207/3609045d4271716f5e3e1fbeb5e2ce9fb7b222a6/assets/card-cyber-breach-prediction.svg" width="100%" alt="02 / Cyber Breach Prediction: academic incident classification comparing Random Forest and Logistic Regression, using Python, Streamlit, and scikit-learn." /></a><br>
       <sub>Academic project · <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction">Code</a> · <a href="https://github.com/PranavP2207/Cyber-Breach-Prediction/blob/main/docs/project-guide.html">Project guide</a></sub>
     </td>
   </tr>
