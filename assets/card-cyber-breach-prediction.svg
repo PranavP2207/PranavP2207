@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-labelledby="title desc">
-  <title id="title">02 / Cyber Breach Prediction</title>
+  <title id="title">06 / Cyber Breach Prediction</title>
   <desc id="desc">Random Forest vs. Logistic Regression. Incident classification. Technologies: Python, Streamlit, scikit-learn.</desc>
   <defs>
     <path id="ridge" d="M-276-48C-296-150-184-238-64-224C42-240 138-204 210-126C298-50 294 50 208 118C128 192 18 232-92 190C-206 174-258 80-276-48Z" />
@@ -34,7 +34,7 @@
     <rect width="580" height="240" fill="#2c0b19" />
     <rect width="580" height="240" fill="url(#surface-gradient)" />
     <use href="#contours" transform="translate(540 236) scale(.58)" opacity=".4" />
-    <text x="60" y="70" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#f0b6c8">02</text>
+    <text x="60" y="70" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" fill="#f0b6c8">06</text>
     <text x="112" y="56" font-family="'Iowan Old Style',Georgia,'Times New Roman',serif" font-size="30" fill="#f3efe4">Cyber Breach Prediction</text>
     <text x="112" y="88" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#c8a1ad">Random Forest vs. Logistic Regression.</text>
     <text x="112" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#c8a1ad">Incident classification.</text>
